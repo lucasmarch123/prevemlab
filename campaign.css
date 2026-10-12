@@ -1,0 +1,36 @@
+body{overflow-x:hidden}
+[hidden]{display:none!important}
+.entry-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:24px 0 10px}
+.entry-actions .btn{padding:16px 22px;min-height:48px}
+.intro-shell .small{margin:12px 0;font-size:14px!important;line-height:1.5}
+.intro-shell .fullscreen-tip{margin-top:24px;font-size:11px!important}
+.entry-actions .primary{box-shadow:0 0 30px #54f0a025}
+.field-hint,.field-count{font-size:13px;font-weight:400;color:#b7d1c3;line-height:1.5}
+.field-count{text-align:right;font-variant-numeric:tabular-nums}
+#inscricao{scroll-margin-top:24px}
+#inscricao:focus{outline:none}
+#signupRules{margin-bottom:24px}
+.campaign-status{border-left:2px solid var(--green);padding:8px 14px;text-align:left;line-height:1.5}
+.criteria-table{overflow-x:auto;margin:20px 0}
+table{width:100%;border-collapse:collapse;text-align:left;color:#c6ded0;font-size:16px}
+caption{text-align:left;font-size:14px;color:#a2bcb0;padding-bottom:12px}
+th,td{padding:14px 12px;border-bottom:1px solid #29513d}
+thead th{color:#8df3b8}tbody th{font-weight:500}
+.discover-card{border:1px solid #34674b;border-radius:14px;padding:12px 22px 22px;margin-top:28px;background:#0a2117}
+#reveal{overflow-x:hidden;padding:22px 4vw;gap:12px}
+#reveal #rewardGallery.prize-art{height:min(49vh,600px);width:min(90vw,1200px);margin:0;flex-shrink:1;min-height:140px}
+#reveal p{max-width:1000px;line-height:1.5}
+#reveal .pill{white-space:normal;max-width:100%;font-size:12px}
+#reveal .cta-row{justify-content:center;margin:0;gap:10px}
+#reveal .btn{min-height:44px;margin:0!important}
+#introVideo{object-fit:contain}
+#introFilm,#rewardFilm{isolation:isolate}
+.media-mute{position:absolute;right:4vw;top:24px;z-index:3;background:#071b12ef}
+#skipIntro,#rewardFilm .skip{bottom:24px}
+#introNotice{bottom:80px}
+#explore{scroll-behavior:auto}
+.explore-top{position:relative}
+.explore-top .eyebrow{flex:1;min-width:220px}
+[inert]{pointer-events:none}
+@media(max-width:600px){.entry-actions{flex-direction:column}.entry-actions .btn{width:100%}.footer{max-height:180px;overflow-y:auto}.slide{top:242px}#reveal{padding:20px 4vw}#reveal #rewardGallery.prize-art{height:30vh;flex-shrink:0}#reveal p{font-size:14px}th,td{font-size:13px;padding:10px 6px}.explore-top .eyebrow{min-width:0}.intro-shell h1{font-size:54px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
