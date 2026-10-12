@@ -1,0 +1,10 @@
+PREVEM LAB V3 - coloque nesta pasta os arquivos abaixo exatamente com estes nomes:
+PREVEM_LAB_Previa_60s_4K (1).mp4
+Abertura.mp3
+Designer (4).png
+Designer (5).png
+Designer (6).png
+Premiacao.mp4 (futuro filme)
+Premiacao.mp3 (futura trilha sincronizada)
+
+A apresentacao inicia com botao para liberar som no navegador. Se a abertura nao estiver disponivel, use PULAR ABERTURA. Se o filme da premiacao nao estiver disponivel, o desbloqueio vai direto para a revelacao visual.
